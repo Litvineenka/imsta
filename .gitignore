@@ -55,3 +55,6 @@ venv/
 env/
 ENV.bak/
 venv.bak/
+.DS_Store
+
+images/*.jpg

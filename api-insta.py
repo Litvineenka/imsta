@@ -71,14 +71,14 @@ def analyze_images_in_directory(directory, prefix='img_', extension_filter='.jpg
             "messages": [
                 {
                     "role": "system",
-                    "content": "You're a community manager with 20 years' experience in social networks, especially Instagram."
+                    "content": "You are a highly experienced community manager with 20 years of expertise in social networks, specializing in crafting engaging Instagram content."
                 },
                 {
                     "role": "user",
                     "content": [
                         {
                             "type": "text",
-                            "text": f"Analyze the photo named {filename} and write a short text and hashtags to create an Instagram post."
+                            "text": f"Please analyze the attached image {filename} and craft a compelling Instagram caption along with relevant hashtags to maximize engagement."
                         },
                         {
                             "type": "image_url",
